@@ -1,0 +1,35 @@
+{
+  "name": "mk-list-dir",
+  "version": "0.0.1",
+  "description": "List files in directory as promise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkastner/mk-list-dir.git"
+  },
+  "keywords": [
+    "node",
+    "directory",
+    "files",
+    "list",
+    "promise"
+  ],
+  "author": "John Galt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkastner/mk-list-dir/issues"
+  },
+  "dependencies": {
+    "mk-log": "git+https://github.com/mkastner/mk-log.git"
+  },
+  "homepage": "https://github.com/mkastner/mk-list-dir#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
